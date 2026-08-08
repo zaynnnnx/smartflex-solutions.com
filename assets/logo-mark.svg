@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="sfMarkTitle">
+  <title id="sfMarkTitle">SmartFlex Solutions</title>
+  <defs>
+    <linearGradient id="mGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0d38a"/>
+      <stop offset="45%" stop-color="#c9a24d"/>
+      <stop offset="100%" stop-color="#9c7a2f"/>
+    </linearGradient>
+    <linearGradient id="mNavy" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#142a4a"/>
+      <stop offset="100%" stop-color="#071224"/>
+    </linearGradient>
+  </defs>
+  <circle cx="80" cy="80" r="76" fill="url(#mNavy)"/>
+  <circle cx="80" cy="80" r="76" fill="none" stroke="url(#mGold)" stroke-width="2.5"/>
+  <path d="M40 102 C 56 60, 72 108, 92 68 C 103 46, 114 54, 123 62"
+        fill="none" stroke="url(#mGold)" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="123" cy="62" r="7" fill="#f0d38a"/>
+  <circle cx="40" cy="102" r="7" fill="#f0d38a"/>
+  <path d="M54 122 L67 84 L78 103 L91 58 L102 82 L115 42" fill="none"
+        stroke="#f8f6f1" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.35"/>
+</svg>
