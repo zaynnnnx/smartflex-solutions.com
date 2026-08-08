@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us | SmartFlex Solutions</title>
+<meta name="description" content="Contact SmartFlex Solutions at info@smartflex-solutions.com or visit one of our six global offices in London, New York, Singapore, Hong Kong, Frankfurt and Toronto.">
+<link rel="icon" type="image/svg+xml" href="assets/logo-mark.svg">
+<link rel="canonical" href="https://smartflex-solutions.com/contact.html">
+<link rel="stylesheet" href="css/style.css">
+<noscript><style>.reveal{opacity:1!important;transform:none!important;}</style></noscript>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="container">
+    <div class="topbar-links">
+      <a href="mailto:info@smartflex-solutions.com">info@smartflex-solutions.com</a>
+      <a href="tel:+442079460958">+44 20 7946 0958</a>
+    </div>
+    <div class="topbar-social">
+      <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.24 8.5h4.5V23H.24V8.5zM8.34 8.5h4.31v1.98h.06c.6-1.13 2.07-2.33 4.26-2.33 4.56 0 5.4 3 5.4 6.9V23h-4.5v-6.94c0-1.66-.03-3.79-2.31-3.79-2.32 0-2.67 1.81-2.67 3.67V23h-4.5V8.5z"/></svg></a>
+      <a href="#" aria-label="X (Twitter)"><svg viewBox="0 0 24 24"><path d="M18.9 2H22l-7.6 8.7L23 22h-6.9l-5.4-6.6L4.4 22H1.3l8.1-9.3L1 2h7l4.9 6.1L18.9 2zm-1.2 18h1.9L7.4 4H5.4l12.3 16z"/></svg></a>
+    </div>
+  </div>
+</div>
+
+<header class="site-header">
+  <nav class="nav">
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+    <a href="index.html" class="nav-logo"><img src="assets/logo.svg" alt="SmartFlex Solutions"></a>
+    <div class="nav-right">
+      <a href="contact.html" class="btn btn-gold nav-cta">Get In Touch</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span></button>
+    </div>
+  </nav>
+  <div class="nav-scrim"></div>
+</header>
+
+<main>
+
+  <div class="page-header">
+    <div class="container">
+      <div class="breadcrumb"><a href="index.html">Home</a> / <span>Contact Us</span></div>
+      <h1>Let's talk about your registry, fund or listing needs</h1>
+      <p>Reach our team directly — no ticketing system, no call centre. Every enquiry is routed to a specialist within one business day.</p>
+    </div>
+  </div>
+
+  <section>
+    <div class="container">
+      <div class="contact-wrap">
+
+        <!-- FORM -->
+        <div class="reveal">
+          <div class="form-card">
+            <h2 style="font-size:1.5rem;">Send us a message</h2>
+            <p style="margin-bottom:26px;">Fill out the form and a member of the SmartFlex team will respond within one business day.</p>
+
+            <div class="form-success" id="form-success">Thank you — your message has been received. A member of our team will be in touch within one business day.</div>
+
+            <form id="contact-form" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+              <input type="hidden" name="form-name" value="contact">
+              <p style="display:none;">
+                <label>Don't fill this out if you're human: <input name="bot-field"></label>
+              </p>
+
+              <div class="form-row">
+                <div class="field">
+                  <label for="name">Full Name *</label>
+                  <input type="text" id="name" name="name" placeholder="Jane Doe" required>
+                  <span class="field-error">Please enter your full name.</span>
+                </div>
+                <div class="field">
+                  <label for="email">Email Address *</label>
+                  <input type="email" id="email" name="email" placeholder="jane@company.com" required>
+                  <span class="field-error">Please enter a valid email address.</span>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="field">
+                  <label for="company">Company Name</label>
+                  <input type="text" id="company" name="company" placeholder="Company Ltd.">
+                </div>
+                <div class="field">
+                  <label for="phone">Phone Number</label>
+                  <input type="tel" id="phone" name="phone" placeholder="+1 (555) 000-0000">
+                </div>
+              </div>
+
+              <div class="field">
+                <label for="subject">Subject *</label>
+                <select id="subject" name="subject" required>
+                  <option value="">Select an area of interest</option>
+                  <option>Transfer Agency &amp; Shareholder Registry</option>
+                  <option>Investment Fund Administration</option>
+                  <option>Public Company Support</option>
+                  <option>IPO &amp; Listing Advisory</option>
+                  <option>General Enquiry</option>
+                </select>
+                <span class="field-error">Please select a subject.</span>
+              </div>
+
+              <div class="field">
+                <label for="message">Message *</label>
+                <textarea id="message" name="message" placeholder="Tell us a little about your business and what you need help with..." required></textarea>
+                <span class="field-error">Please enter at least 10 characters.</span>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+              <p class="form-note">By submitting this form, you agree to our <a href="privacy.html" style="text-decoration:underline;">Privacy Policy</a>. We never share your information with third parties.</p>
+            </form>
+          </div>
+        </div>
+
+        <!-- INFO -->
+        <div class="reveal">
+          <span class="eyebrow">Get In Touch</span>
+          <h2 style="margin-bottom:20px;">Our contact details</h2>
+
+          <div class="contact-info-card">
+            <div class="icon-circle icon-circle--navy"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z" opacity="0"/><path d="M22 6l-10 7L2 6"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg></div>
+            <div>
+              <h3>Email Us</h3>
+              <p><a href="mailto:info@smartflex-solutions.com">info@smartflex-solutions.com</a></p>
+            </div>
+          </div>
+          <div class="contact-info-card">
+            <div class="icon-circle icon-circle--navy"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
+            <div>
+              <h3>Call Us</h3>
+              <p><a href="tel:+442079460958">+44 20 7946 0958</a> (Head Office, London)</p>
+            </div>
+          </div>
+          <div class="contact-info-card">
+            <div class="icon-circle icon-circle--navy"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></div>
+            <div>
+              <h3>Business Hours</h3>
+              <p>Monday – Friday, 8:00 AM – 6:30 PM (local time per office) &nbsp;·&nbsp; 24/7 shareholder support desk</p>
+            </div>
+          </div>
+          <div class="contact-info-card">
+            <div class="icon-circle icon-circle--navy"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+            <div>
+              <h3>Head Office</h3>
+              <p>33 Cannon Street, London EC4M 5SB, United Kingdom</p>
+            </div>
+          </div>
+
+          <div style="margin-top:36px;">
+            <h3 style="font-size:1.05rem;color:var(--navy-900);margin-bottom:16px;font-family:var(--font-serif);">Our Global Offices</h3>
+            <div class="grid grid-2" style="gap:16px;">
+              <div class="office-card"><span class="tag">Americas</span><h3 style="font-size:.95rem;">New York, USA</h3><p style="font-size:.85rem;">1 Liberty Plaza, NY 10006</p></div>
+              <div class="office-card"><span class="tag">APAC</span><h3 style="font-size:.95rem;">Singapore</h3><p style="font-size:.85rem;">Asia Square Tower 1</p></div>
+              <div class="office-card"><span class="tag">APAC</span><h3 style="font-size:.95rem;">Hong Kong</h3><p style="font-size:.85rem;">Queen's Road Central</p></div>
+              <div class="office-card"><span class="tag">Europe</span><h3 style="font-size:.95rem;">Frankfurt, Germany</h3><p style="font-size:.85rem;">Taunusanlage 8</p></div>
+              <div class="office-card" style="grid-column:1/-1;"><span class="tag">Americas</span><h3 style="font-size:.95rem;">Toronto, Canada</h3><p style="font-size:.85rem;">100 King Street West</p></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <img src="assets/logo.svg" alt="SmartFlex Solutions">
+        <p>Flexible transfer agency, shareholder registry, fund administration and IPO advisory services for issuers and investment managers worldwide.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.24 8.5h4.5V23H.24V8.5zM8.34 8.5h4.31v1.98h.06c.6-1.13 2.07-2.33 4.26-2.33 4.56 0 5.4 3 5.4 6.9V23h-4.5v-6.94c0-1.66-.03-3.79-2.31-3.79-2.32 0-2.67 1.81-2.67 3.67V23h-4.5V8.5z"/></svg></a>
+          <a href="#" aria-label="X (Twitter)"><svg viewBox="0 0 24 24"><path d="M18.9 2H22l-7.6 8.7L23 22h-6.9l-5.4-6.6L4.4 22H1.3l8.1-9.3L1 2h7l4.9 6.1L18.9 2zm-1.2 18h1.9L7.4 4H5.4l12.3 16z"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="services.html#registry">Transfer Agency &amp; Registry</a></li>
+          <li><a href="services.html#funds">Fund Administration</a></li>
+          <li><a href="services.html#public-companies">Public Company Support</a></li>
+          <li><a href="services.html#ipo">IPO &amp; Listing Advisory</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Get In Touch</h4>
+        <ul>
+          <li><a href="mailto:info@smartflex-solutions.com">info@smartflex-solutions.com</a></li>
+          <li><a href="tel:+442079460958">+44 20 7946 0958</a></li>
+          <li><a href="contact.html">33 Cannon Street, London EC4M 5SB, UK</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span id="year"></span> SmartFlex Solutions Ltd. All rights reserved.</span>
+      <span><a href="terms.html">Terms and Conditions</a> &nbsp;·&nbsp; <a href="privacy.html">Privacy Policy</a></span>
+    </div>
+  </div>
+</footer>
+
+<button class="back-to-top" aria-label="Back to top">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
+
+<script src="js/main.js"></script>
+</body>
+</html>

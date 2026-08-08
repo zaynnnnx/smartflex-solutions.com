@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 160" role="img" aria-labelledby="sfLogoTitle">
+  <title id="sfLogoTitle">SmartFlex Solutions</title>
+  <defs>
+    <linearGradient id="sfGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0d38a"/>
+      <stop offset="45%" stop-color="#c9a24d"/>
+      <stop offset="100%" stop-color="#9c7a2f"/>
+    </linearGradient>
+    <linearGradient id="sfNavy" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#142a4a"/>
+      <stop offset="100%" stop-color="#071224"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="78" cy="80" r="70" fill="url(#sfNavy)"/>
+  <circle cx="78" cy="80" r="70" fill="none" stroke="url(#sfGold)" stroke-width="2"/>
+
+  <path d="M40 100 C 55 60, 70 105, 88 68 C 98 48, 108 55, 116 62"
+        fill="none" stroke="url(#sfGold)" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="116" cy="62" r="6.5" fill="#f0d38a"/>
+  <circle cx="40" cy="100" r="6.5" fill="#f0d38a"/>
+
+  <path d="M52 118 L64 82 L74 100 L86 58 L96 80 L108 44" fill="none"
+        stroke="#f8f6f1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.35"/>
+
+  <text x="168" y="88" font-family="'Fraunces', 'Playfair Display', Georgia, serif" font-size="52" font-weight="600" fill="#0d1f38">SmartFlex</text>
+  <text x="169" y="118" font-family="'Inter', Arial, sans-serif" font-size="20" font-weight="600" letter-spacing="6" fill="#9c7a2f">SOLUTIONS</text>
+</svg>
